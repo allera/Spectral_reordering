@@ -1,4 +1,4 @@
-function [orderedB]= SIN_Spectral_Reordering(B)
+function [orderedB permutation]= SIN_Spectral_Reordering(B)
 %[orderedB]= SIN_Spectral_Reordering(B)
 %
 %INPUT: B is a correlation matrix

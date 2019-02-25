@@ -37,7 +37,7 @@ corrMatrix=corr(data); % we want to recover this ordered structure
     B=B(:,mix);
 
 %recover it    
-[orderedB]= SIN_Spectral_Reordering(B); 
+[orderedB permutation]= SIN_Spectral_Reordering(B); 
 
 
 %Make a plot
